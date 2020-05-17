@@ -1,0 +1,34 @@
+.resultImage{
+    max-width: 200px;
+}
+.fakeimg {
+    max-width: 200px;
+    width: 100%;
+    background: #d9d9d9;
+    height: 181px;
+    text-align: center;
+    padding: 16%;
+}
+div#root {
+    background: #ede7e74a;
+}
+.plsRow {
+    border: 5px double #898989;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+}
+table{
+    margin-top: 50px;
+}
+
+td{
+    border:1px solid #494949;
+    padding:10px
+}
+.styleTabs span{
+    margin-left: 5px;
+    background:#484848;
+    color: #fff;
+    padding: 1px 10px;
+}
