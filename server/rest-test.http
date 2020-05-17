@@ -1,0 +1,21 @@
+GET localhost:3002/tracks
+Accept: text/html
+
+###
+
+POST http://localhost:3002/track
+Content-Type: application/json
+
+{
+  "playlistID": 1,
+  "title":"Bhumit",
+  "uri": "http:",
+  "master_id" : 456
+}
+
+###
+
+DELETE localhost:3002/track/2
+
+###
+
