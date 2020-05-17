@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.incidents-data {
+  text-align: center;
+}
+
+.incidents-table,
+th,
+td {
+  border: 0.1vw solid black;
+  border-collapse: collapse;
+  padding: 0.2vw;
+  text-align: center;
+}
+
+.incidents-wrapper {
+  border: 5px solid black;
+  width: 40vw;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.incidents-wrapper h1 {
+  text-align: center;
+}
+
+.incidents-wrapper input {
+  margin: 20px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+input[type="submit"] {
+  margin-bottom: 1vh;
+}
