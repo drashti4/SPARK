@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.incidents-data {
+    text-align: center;
+}
+
+.incidents-table,
+th,
+td {
+    border: 0.1vw solid black;
+    border-collapse: collapse;
+    padding: 0.2vw;
+    text-align: center;
+}
+
+.incidents-wrapper {
+    border: 5px solid black;
+    width: 50vw;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.incidents-wrapper h1 {
+    text-align: center;
+}
+
+.incidents-wrapper input {
+    margin: 20px;
+    text-align: center;
+}
+
+.json-data {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.json-data h3 {
+    text-align: center;
+}

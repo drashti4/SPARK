@@ -1,5 +1,6 @@
 import React from "react";
 import { browserHistory } from 'react-router';
+import Cookies from 'js-cookie';
 
 export default class LoginComponent extends React.Component{
     constructor(props)
@@ -15,13 +16,11 @@ export default class LoginComponent extends React.Component{
     }
     onItemClick(event) {
         if(event.target.name === "uname"){
-            console.log("username is "+ event.target.value)
             this.setState({
                 userName : event.target.value
             })
         }
         if(event.target.name === "psw"){
-            console.log("pwd is "+ event.target.value)
             this.setState({
                 pwd : event.target.value
             })
@@ -43,6 +42,9 @@ export default class LoginComponent extends React.Component{
         }).then( response => {
             if(response.status === 200){
                 browserHistory.push('/home');
+                const cookies = new Cookies();
+            //    cookies.set('userName', this.state.userName);
+              //  console.log(cookies.get('userName'));
             }else{
                 console.log("User Invalid")
                 this.setState({

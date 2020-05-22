@@ -9,8 +9,7 @@ export default class HomeComponent extends React.Component {
                 <div className="App">
                     <header className="App-header"> SPARKS
                     </header>
-
-                    <form >
+                    <form>
                         <label className="col-form-label-lg">Register</label><br/>
                         <input className="form__input" type="text" name="user" placeholder="Enter the first name"/><br/><br/>
                         <input className="form__input" type="text" name="password" placeholder="Enter the last name"/><br/><br/>
