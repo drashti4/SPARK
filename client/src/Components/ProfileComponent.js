@@ -7,7 +7,6 @@ class Profile extends Component{
         let artist1 ={name:'', followers:{href:'',total:''},images:[{url:''}], genres:[]};
         if(this.props.artist.followers != null){
             artist1 = this.props.artist;
-
         }
         return (
             <div className="profile">
@@ -38,9 +37,6 @@ class Profile extends Component{
             </div>
         )
     }
-
-
-
 }
 
 export default Profile;

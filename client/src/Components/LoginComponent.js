@@ -2,7 +2,9 @@ import React from "react";
 import { browserHistory } from 'react-router';
 import Cookies from 'js-cookie';
 
+
 export default class LoginComponent extends React.Component{
+
     constructor(props)
     {
         super(props)
@@ -53,12 +55,15 @@ export default class LoginComponent extends React.Component{
             }
         })
     }
+
+
+
     render(){
-        return(
-            <>
+
+        return(<>
                 <div className="container">
                     <label className="col-form-label-lg">Login</label><br/>
-                  <input onChange={this.onItemClick} className="form__input" type="text" name="uname" placeholder="Enter the username" required/><br/><br/>
+                    <input onChange={this.onItemClick} className="form__input" type="text" name="uname" placeholder="Enter the username" required/><br/><br/>
                     <input onChange={this.onItemClick} className="form__input" type="password" name="psw" placeholder="Enter the password" required/><br/><br/>
                     <button onClick={this.handleSubmitClick} className="form__button">Login</button>
                     {this.state.isValid === false ? (
