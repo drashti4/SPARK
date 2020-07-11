@@ -4,4 +4,4 @@
 
 #Technology Used:ReactJS,Tom Tom API
 
-#Team of 5-Rajni,Drashti,Kiran,Prabjot,Harreet
+#Team of 5-Rajni,Drashti,Kiran,Prabjot,Harpreet
