@@ -38,7 +38,6 @@ Currently we're trying to improve UI and any contribution will be appericiated.
 
 If you are willing to contribute in any area listed above or have something new area that we haven't yet thought of then please check our [contributor guidelines](CONTRIBUTING.md).
 
-Check out our [Roadmap](ROADMAP.md) what are we going to do in next 12 weeks. You will ask to follow [code of conduct](CODE_OF_CONDUCT.md)
 
 ## Contact
 
@@ -48,3 +47,9 @@ If you have any doubt, suggestion then you can [open issue](HTTPS://guides.githu
 Thank you so much for visiting this project. :hearts: We hope we can make some interest to you for joining our wonderful journey towards change in someone's life. :clap:
 
 [1.1]: http://i.imgur.com/wWzX9uB.png (twitter icon with padding)
+
+# Screenshot
+
+  Result automatically appear with your spotify credintial. Below is the detail of loaded songs. We are currently working on improving UI.
+  
+  ![hi](https://imgur.com/crLUKx6)
