@@ -52,4 +52,4 @@ Thank you so much for visiting this project. :hearts: We hope we can make some i
 
   Result automatically appear with your spotify credintial. Below is the detail of loaded songs. We are currently working on improving UI.
   
-  ![hi](https://imgur.com/crLUKx6)
+  ![](https://github.com/drashti4/SPARK/blob/master/client/projectDetail.PNG)
