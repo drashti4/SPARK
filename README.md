@@ -30,7 +30,7 @@ Thank you for visiting our repo. :tada: This document will provide some informat
 
 ## Management
 
-We were 5 people of team when this project started and we managed all task management by using **Trello** .
+We were 5 people of team when this project started and we managed all task management by using [Trello](https://trello.com/b/m9DE7CyA/spark).
 
 Currently we're trying to improve UI and any contribution will be appericiated. 
 
