@@ -36,7 +36,7 @@ Currently we're trying to improve UI and any contribution will be appericiated.
 
 ## Involve
 
-If you are willing to contribute in any area listed above or have something new area that we haven't yet thought of then please check our [contributor guidelines](CONTRIBUTING.md).
+If you are willing to contribute in any area listed above or have something new area that we haven't yet thought of then please get in connect with us by opening issue.
 
 
 ## Contact
